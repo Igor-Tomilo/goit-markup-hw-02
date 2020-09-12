@@ -1,0 +1,18 @@
+.link {
+    text-decoration: none;
+}
+
+.logo-color {color: #2196F3;
+}
+.logo-color-footer {
+    color: #ffffff;
+}
+.logo-color-header {
+    color: #000000;
+}
+.link:hover {
+    color: #2196F3;
+}
+.link:focus {   
+    color: #2196F3;
+}
