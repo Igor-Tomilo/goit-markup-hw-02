@@ -164,7 +164,7 @@ body {
 .address {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -175,7 +175,7 @@ body {
 .address-list-link {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -194,16 +194,35 @@ body {
 
 /* ============HTML Porfolio============= */
 .portfolio-navigations-link {
-font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
+line-height: 1.625;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--title-color);
+}
+
+.portfolio-navigation-list-title{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: var(--title-color);
+}
+
+
+
+.portfolio-navigations-subtitle{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+
+color: var(--subtitle-color);
 }
 
 /* ============HTML End Porfolio============= */
