@@ -225,4 +225,9 @@ letter-spacing: 0.03em;
 color: var(--subtitle-color);
 }
 
+.portfolio-navigations-link:hover,
+.portfolio-navigations-link:focus {
+  color: var(--accent-color) ;
+}
+
 /* ============HTML End Porfolio============= */
