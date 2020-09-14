@@ -163,6 +163,7 @@ body {
 /* ===============Footer============= */
 .address {
   font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.714;
   /* or 171% */
@@ -230,4 +231,25 @@ color: var(--subtitle-color);
   color: var(--accent-color) ;
 }
 
+.porfolio-nav-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: var(--title-color);
+}
+
+.porfolio-nav-subtitle {  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+
+color: var(--subtitle-color);
+}
 /* ============HTML End Porfolio============= */
